@@ -34,17 +34,17 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>(000) 000-0000 x12387</span>
+                        <h3>Telefono</h3>
+                        <span>(+54) 011 4773-7810</span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <h3>Direccion</h3>
+                        <span>Huergo 369<br />
+                        Palermo, Buenos Aires<br />
+                        Argentina</span>
                     </div>
                 </section>
             </section>
