@@ -1,0 +1,78 @@
+/* Local */
+
+#local {
+    .store-description {
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none;
+    }
+
+    .header {
+        color: darkslategrey;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .address {
+        text-align: center;
+    }
+
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+    }
+
+    .list-unstyled-item {
+        list-style: none;
+    }
+
+    .list-hours .list-hours-item {
+        border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+        padding-bottom: .25rem;
+        margin-bottom: 1rem;
+        font-style: "Italic";
+    }
+
+    .section-heading .section-heading-upper {
+        display: block;
+        font-weight: 800;
+        font-family: "Raleway";
+      }
+
+    .section-heading .section-heading-lower {
+        display: block;
+        font-weight: 100;
+        font-family: "Raleway";
+    }
+
+    .cta {
+        color: black;
+      }
+      
+      .cta .cta-inner {
+        position: relative;
+        padding: 3rem;
+        margin: 0.5rem;
+        background-color: rgba(255, 255, 255, 0.85);
+      }
+      
+      .cta .cta-inner:before {
+        border-radius: 0.5rem;
+        content: '';
+        position: absolute;
+        top: -0.5rem;
+        bottom: -0.5rem;
+        left: -0.5rem;
+        right: -0.5rem;
+        border: 0.25rem solid rgba(255, 255, 255, 0.85);
+      }
+
+    .about-heading .about-heading-content {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+      }
+
+    strong {
+        color: black;
+    }
+}

@@ -18,9 +18,51 @@ const Local = (props) => (
                         <h1>Local</h1>
                     </header>
                     <span className="image main"><img src={localImg} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <div id="local" class="about-heading-content">
+                    <section class="page-section about-heading section-top clearfix cta">
+                    <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto store-description">
+                    <div class="cta-inner text-center rounded">
+                    <h2 class="section-heading mb-5 header">
+                      <span class="section-heading-upper">Veni a Visitarnos!!</span>
+                      <br/>
+                      <span class="section-heading-lower">Horarios</span>
+                    </h2>
+                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Lunes a Viernes
+                        <span class="ml-auto"> De 9:00 a 19:00 Hs</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Sabados
+                        <span class="ml-auto"> De 10:00 a 18:00 Hs</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Domingos
+                        <span class="ml-auto"> Cerrado</span>
+                      </li>
+                    </ul>
+                    <p class="address mb-5">
+                      <em>
+                        <strong>Huergo 369</strong>
+                        <br/>
+                        Palermo, Buenos Aires, Argentina
+                      </em>
+                    </p>
+                    <p class="mb-0">
+                      <small>
+                        <em>Telefonos:</em>
+                      </small>
+                      <br/>
+                      (+54) 011 4773-7810
+                      <br/>
+                      (+54) 011 15 3053-1486
+                    </p>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+                    </div>
                 </div>
             </section>
         </div>
